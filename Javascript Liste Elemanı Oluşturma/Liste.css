@@ -1,0 +1,16 @@
+.input-css {
+  width: 350px;
+}
+.input-css::placeholder {
+  text-align: center;
+}
+.contact-frm {
+  background-color: #ccd5ae;
+  padding: 30px;
+  border-radius: 10px;
+  border-top: 5px solid #898b83;
+}
+
+h3 {
+  border-bottom: 2px solid gray;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bst/bootstrap.min.css" />
+    <link rel="stylesheet" href="./bst/bootstrap.min.css.map" />
+    <link rel="stylesheet" href="./Liste.css" />
+  </head>
+  <body>
+    <div class="container text-center">
+    <h3 class=" fs-5 mt-3 pb-2 d-inline-block">Liste Elemanı Ekleme</h3>
+    </div>
+    <div class="d-flex justify-content-center mt-3" id="content-add">
+      <div class="contact-frm">
+      <form id="addfrm">
+        <input
+          type="text"
+          class="form-control input-css border-1"
+          placeholder="Lütfen Bir Eleman Giriniz"
+          id="inputadd"
+        />
+        <button type="submit" class="btn btn-primary mt-3 ms-5" id="addbtn">Eleman Ekle</button>
+        <button type="reset" class="btn btn-primary mt-3">Elemanları Sil</button>
+      </form>
+    </div>
+    </div>
+    <div id="alert-div" class="mt-3 d-flex justify-content-center flex-wrap"></div>
+    <div class="mt-3 d-flex justify-content-center gap-4">
+      <ul id="list-grp" style="list-style-type: circle">
+        <!-- <li class="list"></li> -->
+      </ul>
+      <ul id="list-grp-two" style="list-style-type: circle;">
+        <!-- <li class="list"></li> -->
+      </ul>
+    </div>
+    </div>
+    <script src="./Liste.js"></script>
+  </body>
+</html>
